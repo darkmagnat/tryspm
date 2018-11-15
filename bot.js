@@ -3,7 +3,7 @@ const client = new Discord.Client();
 var prefix = "1";
 
 client.on('ready', () => {
-  console.log(Logged in as ${client.user.tag}!);
+  console.log(`Logged in as ${client.user.tag}!`);
 });
 
 client.on('ready', async() => {
